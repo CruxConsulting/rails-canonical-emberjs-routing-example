@@ -6,7 +6,7 @@
 
 body, html {
   width: 100%;
-  background: url(../graphics/Tile.jpg);
+  background: image-url("graphics/Tile.jpg");
   font-family: 'Doppio One', sans-serif; }
 
 p {
@@ -34,17 +34,17 @@ div {
     height: 28px;
     clear: both; }
   &.tab1 {
-    background: url(../graphics/TabsCanonical.png);
+    background: image-url("graphics/TabsCanonical.png");
     p.tab1 {
       color: #ffffff;
       text-shadow: 1px 1px #333333; } }
   &.tab2 {
-    background: url(../graphics/TabsRouting.png);
+    background: image-url("graphics/TabsRouting.png");
     p.tab2 {
       color: #ffffff;
       text-shadow: 1px 1px #333333; } }
   &.tab3 {
-    background: url(../graphics/TabsExample.png);
+    background: image-url("graphics/TabsExample.png");
     p.tab3 {
       color: #ffffff;
       text-shadow: 1px 1px #333333; } }
@@ -61,7 +61,7 @@ div {
     width: 271px;
     height: 83px;
     margin: 20px 1px 20px 1px;
-    background: url(../graphics/Content.png);
+    background: image-url("graphics/Content.png");
     p {
       color: #000000;
       font-size: 14px;
@@ -81,14 +81,14 @@ div {
         top: 6px;
         left: 0px;
         z-index: 1;
-        background: url(../graphics/SliderBackground.png); }
+        background: image-url("graphics/SliderBackground.png"); }
       &.foreground {
         height: 6px;
         position: absolute;
         top: 0px;
         left: 0px;
         z-index: 2;
-        background: url(../graphics/SliderForeground.png); }
+        background: image-url("graphics/SliderForeground.png"); }
       &.handle {
         width: 16px;
         height: 18px;
@@ -96,4 +96,4 @@ div {
         top: -6px;
         left: 0px;
         z-index: 3;
-        background: url(../graphics/SliderHandle.png); } } } }
+        background: image-url("graphics/SliderHandle.png"); } } } }
