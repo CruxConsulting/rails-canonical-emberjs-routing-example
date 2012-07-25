@@ -34,4 +34,7 @@ RailsCanonicalEmberjsRoutingExample::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Tell ember-rails to use the dev source file of ember and handlebars
+  config.ember.variant = :development
 end
