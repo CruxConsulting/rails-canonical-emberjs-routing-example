@@ -16,4 +16,8 @@
 //= require handlebars
 //= require ember
 
+//= require_self
+
 //= require_tree .
+
+App = Em.Application.create();

@@ -1,7 +1,4 @@
 $ ->
-	# Create a new App namespace:
-
-	App = Em.Application.create()
 
 	# Create the application controller alongside the application view that's
 	# found in the index.html file:
@@ -123,23 +120,6 @@ $ ->
 
 				exit: ->
 					$('div.tabs').removeClass 'tab3'
-
-	# Here, we expose the App namespace to the global namespace. This is done
-	# because of CoffeeScript initially compiling line 4,
-	# 
-	#	App = Em.Application.create()
-	# 
-	# ... into the following:
-	#
-	# var App;
-  # App = Em.Application.create();
-  #
-  # ... in the compiled app.js file. The var App; part defines the App variable
-  # as belonging to only the local scope, which is the anonymous function inside
-  # the $() function call - and this is what we make up for below via the global
-  # namespace exposure:
-
-	window.App = App;
 
 	# Finally, initialize our glorious Ember application:
 	App.initialize()
