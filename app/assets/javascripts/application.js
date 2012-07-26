@@ -18,6 +18,6 @@
 
 //= require_self
 
-//= require_tree .
+//= require canonical
 
 App = Em.Application.create();
