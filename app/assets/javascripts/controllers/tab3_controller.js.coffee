@@ -1,0 +1,1 @@
+App.Tab3Controller = Em.Controller.extend()

@@ -1,0 +1,1 @@
+App.Tab1Controller = Em.Controller.extend()
